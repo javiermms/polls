@@ -25,7 +25,7 @@ SECRET_KEY = 'qu1inc@ale)-@lap$0hgv*7-jdzb^84j396vpwh-a^dvm&61wf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'jam-polls.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'jam-polls.herokuapp.com']
 
 
 # Application definition
@@ -125,6 +125,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 
